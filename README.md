@@ -4,3 +4,4 @@ ways you can help if i approve you via email:
 2. work on the python code
 3. add more builtins (or modules for MTGlang)
 4. if you add code that affects something else please add something to let everyone know so that the documentation can be changed
+5. if i do not approve you feel free to create a branch and work in that
