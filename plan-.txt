@@ -1,0 +1,5 @@
+plan-
+¬1 finish documentation
+¬2 parser sheet
+¬3 token system
+¬4 programs

@@ -1,0 +1,89 @@
+stack until i is 10
+for i in 10
+stack with i in range (0,10)
+for i in range (0,10)
+stack has a 5
+for 5
+read it, `trained orgg` has a counterspell Tapped, so
+|card 1 is "shatter"
+|play (1)
+if (var == not False):
+	a = "shatter"
+	print (a)
+if i play boil with (`shatter`) then
+|i can "play {x1}" with the enchantment `wild growth`(shatter)
+def boil(shatter):
+	exec (f'print("{shatter}")')
+1.
+i reveal my card `trained orgg`, it has
+| a mana of 15 ¬deemed¬ `health`
+the state a of `trained orgg` is untapped.
+i declare b to be that `trained orgg` has a health above 10.
+until `trained orgg resolves`, I`
+| ¬attack with `trained orgg`¬
+| play "1DMG"
+| health of `trained orgg` -1
+play "defeated"
+1.1
+
+
+'note'
+
+memory has
+	string - Name
+	bool  -  state
+		true - untapped
+		false tapped
+	int   -    MANA
+	float  - HEALTH
+	LIST   -   HAND
+	expression-i declare (that) ((can optionally be used to declare a variable of any kind, but if no other kind provided than just an expression))
+use creature names as variable names its funny
+list.Pop - discard
+list.append - Draw
+built-ins
+PRINT-PLAY
+SPLIT - types
+IF - read it, ____(var) is ______
+    if you're using operators besides is, use has
+FOR -      stack
+WHILE - (do) until ___ (resolves)
+DEF  -  if i play 
+CLASS - LIBRARY
+PASS  -  FLYING
+RETURN - return ___ to owners hand
+"text {x1}... text" with (the) enchantment(s) __() ,__() ,and __() 
+exec - I can
+put ` around variable names with spaces
+object-Card 
+create object - reveal (my) card
+""
+()
+[]
+{}
+AND - KICKER
+NOT - COUNTER.SPELL
+OR - TRAMPLE
+XOR - SPLIT
++
+- 
+run function - I tap (function name) with (inputs)
+is
+has
+with
+^similar;
+'is' is like a single = in python
+has can be is or it can do nothing depending of context
+with is also similar but used for functions
+
+*
+^
+/
+> health/power over/above
+< power/health under/below
+<= 
+>=
+=
+!=
+
+
