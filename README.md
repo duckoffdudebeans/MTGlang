@@ -17,3 +17,5 @@ read it, `phyrexian colossus` has 10 health
 | `phyrexian colossus` has state `à` tapped
 |`phyrexian colossus` has mana `forest` + 1
 look at it in the code
+
+DISCLAIMER: I USED AI TO HELP BTAINSTORM. THE IDEA AND CODE IS MINE.
