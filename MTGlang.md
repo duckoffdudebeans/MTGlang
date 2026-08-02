@@ -222,7 +222,7 @@ this section is about the details of grammar, boring, but important.
 
 #### has(3.1.1)
 
-has is used whenever a numerical comparison is being made or when it is followed by a logic operator . has is also to be followed by an a/an (unless it is in a stack) for readability, it is not required to function.
+has is used whenever a numerical comparison is being made or when it is followed by a logic operator . has is also to be followed by an a/an (unless it is in a stack) for readability, it is not required to function. has is also used when setting a variable inside of an object.
 
 |1. yes:  read it, `trained orgg` has a counterspell Tapped, so \\n<br />|2. yes: i declare `b` to be that `trained orgg` has a health above 10.|
 |-|-|
