@@ -7,30 +7,12 @@ class __inner__:
 			c = ''
 			f = ''
 			e = []
-			switch = False
-			b = list(segment)
-			for i in range (0,len(b)):
-				if b[i] != ' ':
-					if b[i] == '"':
-						switch = not switch
-					if switch == True:
-						f = f'{f}{b[i]}'
-					if switch == False and f != '':
-						e.append(f)
-						f = ''
-					if switch == False:
-						c = f'{c}{b[i]}'
-					if c in __inner__.keywords.keywords:
-						e.append(c)
-						print (c)
-						c=''
-					elif c in __inner__.keywords.operators:
-						e.append(c)
-						print (c)
-						c=''
-			return(e)
+			spaces? = True
+			f = list(segment)
+			for i in range (o,len(f)):
+				
 	class parser:
-		def parsetoken(token):
+		def parse(token):
 			pass
 		def strparse(string):
 			
@@ -46,8 +28,7 @@ class __inner__:
 		def run(segment):
 			pass
 	class keywords:
-		keywords  =  ['cardname','tapped','mana','health','hand','|','flavortext','play','keywords','read.the.card','stack','until.resolved','on.tap:','library','flying']
-		operators =['"','(',')','[',']','{','}','kicker','counterspell','trample','split','+','-','is','*','^','/','<','>','<=','>=','=','!=']
+		keywords  =  ['name','state','tapped','untapped','mana','health','hand','i','declare','discrd','draw','play','types','read','it,','stack','if','library','flying','return','enchantment','can','card','reveal','kicker','counterspell','trample','split','Tap','is','has','with','+','-','*','^','/','>','<','<=','>=','=','!=']
 print ('please input code and output paths')
 print('code path')
 code = str(input())
