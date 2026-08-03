@@ -18,4 +18,4 @@ read it, `phyrexian colossus` has 10 health
 |`phyrexian colossus` has mana `forest` + 1
 look at it in the code
 
-DISCLAIMER: I USED AI TO HELP BRAINSTORM. THE IDEAS ARE MINE.
+DISCLAIMER: I USED AI TO HELP CODE IT DIDNT DO IT ALL FOR ME. THE IDEAS ARE MINE.
