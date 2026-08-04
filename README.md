@@ -16,6 +16,6 @@ read it, `phyrexian colossus` has 10 health
 | 'it says if health = 10 tap for 1 mana'
 | `phyrexian colossus` has state `à` tapped
 |`phyrexian colossus` has mana `forest` + 1
-look at it in the code
+look at the readme file.
 
-DISCLAIMER: I USED AI TO HELP CODE IT DIDNT DO IT ALL FOR ME. THE IDEAS ARE MINE.
+DISCLAIMER: I USED AI TO HELP CODE V-0.01. THE IDEAS ARE ENTIRELY MINE.
