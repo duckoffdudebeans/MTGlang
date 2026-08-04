@@ -50,10 +50,9 @@ print (shatter)
 -wall
 -ramp
 -token
--play
+-on play
 -enter
 -battlefield
--on
 -(x)
 -mana
 -health
@@ -82,12 +81,40 @@ print (shatter)
 -target
 -fight
 -control
+-stats
 ---
 ## ideas
 ---
 ### keywords
 ---
-
+True - Untapped
+False - Tapped
+print - play
+if - read it,
+> - is more than
+< - is less than
+= - is
+!= - is not
+== - =
+exec - i can
+def - if i play `` /i play ``, on play it (if in an object)
+run function - i tap `` 
+initiate object - i reveal my card ``
+tab - |
+.append - draw
+.pop - discard
+.split - types
+class - set
+pass - flying
+return - mill 
+for - stack
+break - destroy
+raise - exile
+while - until `` resolves
+NOT - counter
+OR - trample
+AND - as well as
+XOR - fight
 ---
 ### grouping
 ---
@@ -95,7 +122,14 @@ print (shatter)
 ---
 ### data types
 ---
-
+list - hand
+string - name
+object - card
+float - health
+int - mana
+bool - state
+dictionary - stats
+logic/math expression - i declare
 ---
 ### other
 ---
