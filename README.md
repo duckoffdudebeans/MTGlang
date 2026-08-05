@@ -8,6 +8,7 @@ ways you can help if i approve you via email:
 
 
 example code:
+```
 i reveal my card `phyrexian colossus` it has
 |Mana `forest` is 3
 |Mana `health` is 10
@@ -16,6 +17,5 @@ read it, `phyrexian colossus` has 10 health
 | 'it says if health = 10 tap for 1 mana'
 | `phyrexian colossus` has state `à` tapped
 |`phyrexian colossus` has mana `forest` + 1
-look at the readme file.
-
+```
 DISCLAIMER: I USED AI TO HELP CODE V-0.01. THE IDEAS ARE ENTIRELY MINE.
