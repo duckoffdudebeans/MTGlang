@@ -204,7 +204,11 @@ commander is used to create a constant variable.
 ###### requirements
 commander requires a variable decalration after it[^2]. the variable it makes cannot be changed after it is created.
 [^2]: in some cases this is not the case, them being '"i reveal my card `name`"' and '"i declare"'; for '"i reveal my {1} card `name` '" in this scenario, commander would be placed at {1}, and '"i declare `name` to be"' would become '"i declare commander `name` to be"'.
-
+##### "control target" (creature/artifact/enchantment = artifact) with `string`<--{filepath}
+###### `3.2.2.5`
+"control target" is used to open a file and has three different modes; creature {read and write}, artifact {read}{used if none provided}, and enchantment {write}
+###### requirements
+"control target" requires a valid filepath.
 
 
 ---
