@@ -1,56 +1,24 @@
-#include "C:\Users\zeke8\Downloads\projects\c++\inputhandle.cpp"
+#include <mtglang 2\inputhandle.hpp>
 #include <iostream>
 #include <vector>
 #include <list>
 template<typename datatype, typename b, typename a, typename c>
 class utils
 {
-    class datastructure
+    class variable
     {
         std::string name;
         datatype data;
         int adress;
     };
-    class memorylist
+    class varlist
     {
         int adress;
-        std::vector<datastructure> varlist = [,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,];
+        std::vector<variable> varlist = [,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,];
     };
-    datastructure init(std::string name,datatype data, int adress,int superadress)
+    variable init(std::string name,datatype data, int adress,int superadress)
     {
-        switch(superadress)
-        {
-            case 0:
-            {
-                switch(adress)
-                {
-                    case 0:
-                    {
-                        datastructure mem0000;
-                        mem0000.adress = "0000";
-                        mem0000.name = name;
-                        mem0000.data = data;
-                        mem[0].varlist[0] = mem0000;
-                    }
-                    case 1:
-                    {
-                        datastructure mem0001;
-                        mem0001.adress = "0001";
-                        mem0001.name = name;
-                        mem0001.data = data;
-                        mem[0].varlist[1] = mem0001
-                    }
-                    case 2:
-                    {
-                        datastructure mem0002;
-                        mem0002.adress = "0002";
-                        mem0002.name = name;
-                        mem0002.data = data;
-                        mem[0].varlist[2] = mem0002;
-                    }
-                }
-            }
-        }
+        
     }
     memorylist meminit(int adress)
     {
