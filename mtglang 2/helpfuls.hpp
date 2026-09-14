@@ -15,17 +15,34 @@ class utils
     {
         std::string name;
         datatype data;
-
-        int adress = adresser;
     };
 
 
     std::vector<variable> mem;
 
 
-    int writer (int adress, datatype datum,bool newvar)
+    int writer (int adress, datatype datum,bool newvar = false, std::string name)
     {
-        return 0;
+        if (newvar == true)
+        {
+            mem[adresser] = variable;
+
+            mem[adresser].name = name;
+            mem[adresser].data = datum;
+
+            adresser++;
+            return 0;
+        }
+        else if (newvar = false)
+        {
+            mem[adress].data = datum;
+
+            return 0;
+        }
+        else
+        {
+            return 1;
+        }
     }
 
 
@@ -37,17 +54,46 @@ class utils
             {
                 if ( mem[i].name == name )
                 {
-                    writer(datum= data adress = i);
+                    switch (writer(datum= data adress = i))
+                    {
+                        case 0:
+                        {
+                            return "VARWRITE<SUCCESS>";
+                            break;
+                        }
+                        case 1: 
+                        {
+                            return "VARWRITE<ERROR>";
+                            break;
+                        }
+                        case default:
+                        {
+                            return 0;
+                            break;
+                        }
+                    }
                 }
 
                 if ( i == (mem.size() - 1))
                 {
-                    if (writer(datum= data, adress = adresser, newvar = true)==1)
+                    switch (writer(datum= data,newvar = true))
                     {
-                        return "VARWRITE<SUCCESS>"
+                        case 0:
+                        {
+                            return "VARWRITE<SUCCESS>";
+                            break;
+                        }
+                        case 1:
+                        {
+                            return "VARWRITE<ERROR>";
+                            break;
+                        }
+                        case default:
+                        {
+                            return 0;
+                            break;
+                        }
                     }
-
-                    adresser++;
                 }
             }
         }
